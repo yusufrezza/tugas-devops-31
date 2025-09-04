@@ -72,5 +72,5 @@ jobs:
           echo "deb https://dl.k6.io/deb stable main" | sudo tee /etc/apt/sources.list.d/k6.list
           sudo apt update
           sudo apt install -y k6
-      - name: Run k6 Smoke Test
-        run: k6 run loadtest/smoke.js
+      - name: Run k6 Script Test
+        run: k6 run loadtest/script.js
