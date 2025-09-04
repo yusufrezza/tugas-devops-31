@@ -49,7 +49,7 @@ jobs:
             -Dsonar.organization=yusufrezza
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_TOKEN: 4302ea3a6edbb4a5c9d2708cdd1dd3f0b7fdd537
 
   k6:
     name: k6 Smoke Test
